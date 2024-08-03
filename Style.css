@@ -412,7 +412,7 @@ img {
   }
 }
 
-/*----------------------------------------------*/
+
 /*styles for the video page */
 .video-container {
   display: flex;
@@ -479,7 +479,7 @@ button:focus::before {
 }
 
 
-/*--------------------------------------*/
+
 .interactive-container {
   padding: 2rem;
   max-width: 1000px;
