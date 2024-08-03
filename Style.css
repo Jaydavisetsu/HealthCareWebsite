@@ -65,7 +65,7 @@ header {
   white-space: nowrap;
   text-align: center;
   overflow: hidden;
-  padding-top: 7.5rem;
+  padding-top: 5rem;
 }
 
 nav {
@@ -113,6 +113,8 @@ h1 {
   font-weight: 300;
   letter-spacing: .7rem;
   text-shadow: .3rem .3rem 0 rgba(77, 73, 62,.3);
+  align-items: center;
+  padding: 4px 5px 6px;
 }
 
 h1 span {
@@ -280,12 +282,41 @@ img {
   box-shadow: var(--boxShadow);
 }
 
-.introduction {
-  padding: 20px;
-  display: flex;
-  align-items: flex-start;
-  justify-content: space-between;
+.landing_container {
+  padding: 4rem;
+  max-width: 1000px;
+  margin: auto;
+  background-color: #F0EDE3;
+  border-radius: 8px;
+  box-shadow: var(--boxShadow);
 
+}
+
+.innovation_container{ 
+  padding: 20px;
+  max-width: 1000px;
+  margin: auto;
+  background-color: #F0EDE3;
+  border-radius: 8px;
+  box-shadow: var(--boxShadow);
+}
+
+.case_container {
+  padding: 4rem;
+  max-width: 1000px;
+  margin: auto;
+  background-color: #F0EDE3;
+  border-radius: 8px;
+  box-shadow: var(--boxShadow);
+}
+
+.research_container {
+  padding: 4rem;
+  max-width: 1000px;
+  margin: auto;
+  background-color: #F0EDE3;
+  border-radius: 8px;
+  box-shadow: var(--boxShadow);
 }
 
 .text-section {
@@ -334,11 +365,12 @@ img {
   display: flex;
   flex-direction: column;
   gap: 2rem;
+  
 }
 
 .contact-form,
 .contact-info {
-  background-color: var(--bgColor);
+  background-color: #F0EDE3;
   color: var(--color);
   padding: 2rem;
   border-radius: 8px;
@@ -582,4 +614,8 @@ button:focus {
 button:hover::before,
 button:focus::before {
   width: 100%;
+}
+
+.article {
+  padding: 20px;
 }
