@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>NieR:Automata YoRHa UI</title>
+  <title>YoRHa HyperCAre</title>
   <link rel="stylesheet" href="Style.css"> <!-- Ensure the path to your CSS file is correct -->
 </head>
 <body>
@@ -15,298 +15,196 @@
     </div>
   </div>
   
-  <div class="container">
+    <div class="hero">
+      <img src="images/hero_nier.jpg" alt="Nier Hero Image Background">
+    </div>
     <h1>
-      <span>YoRHa.</span>
-      <small>The pinnacle of human evolution.</small>
+      <div class="herotext">
+        <p class="text"><span class="auto-type"></span></p>
+        <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+        <script>
+          var typed = new Typed(".auto-type", {
+            strings : ["YoRHa HyperCAre", "The Future is Here."],
+            typeSpeed : 150,
+            backSpeed : 180,
+            loop : true
+          })
+        </script>
+      </div>
     </h1>
-  </div>
+
+  <!-- Navbar -->
+  <nav class="navbar">
+    <ul>
+      <li><a href="#introduction">Introduction</a></li>
+      <li><a href="#innovations">Innovations</a></li>
+      <li><a href="#case-studies">Case Studies</a></li>
+      <li><a href="#research-evidence">Research</a></li>
+      <li><a href="#interactive-features">Interactive Features</a></li>
+      <li><a href="#contact-collab">Contact YoRHa</a></li>
+    </ul>
+  </nav>
+
 </header>
 
 <main>
-  <div class="container">
-    <div class="content">
-      <p>
-        The future is here.
-      </p>
-      
+  <section id="introduction" class="introduction">
+    <div class="container">
+      <h2>Introduction</h2>
+      <p>The future is here.</p>
       <button type="button">I want to know more.</button>
+      <p>We are YoRHa. The community that has brought many great feats to the realm of humanity.</p>
+      <p>
+        We at YoRHa have successfully combined organic flesh & robotics into one, creating the perfect human being.
+        The integration of this technology has proven pivotal to human survival, the robotics pick up where humans lack.
+        This results in increased physical and psychological prowess, increased ailment and disease resistance, and more.
+        We are YoRHa, and we strive to bring glory to mankind.
+      </p>
     </div>
-    
-    <div class="content">
-      <img src="https://basic-tutorials.de/wp-content/uploads/2016/08/NieR-Automata-Logo.jpg" width="300px">
+  </section>
+
+  <section id="innovations" class="innovations">
+    <div class="container">
+      <h2>Innovations</h2>
+      <ul>
+        <li>Emotionally Intelligent AI
+          <p>This is not just any AI; it is an emotionally capable AI. Unlike conventional systems, our AI enhances mental and emotional experiences rather than dulling them. It actively increases emotional capabilities, fostering a more enriched and responsive interaction.</p>
+          <p>What does that mean? If a patient is emotionally unavailable, the YoRHa AI can enhance the accessibility of limited emotional resources. The AI can also put a limit on certain emotions the patient finds troublesome.</p>
+        </li>
+        <li>Advanced Robotics in Healthcare
+          <p>As diseases continue to evolve alongside human populations, integrating advanced robotics into medical practice is increasingly essential. By incorporating robotic technologies, we can significantly enhance the efficiency of various medical procedures, including surgical operations, diagnostic testing, and patient care.</p>
+        </li>
+        <li>Human-Machine Integration
+          <p>Every human life is invaluable. With this belief at the forefront, the experts at YoRHa Headquarters have developed sophisticated, harmonious vessels that seamlessly integrate human tissue with advanced robotics. These procedures, while straightforward, require significant time to complete. Patients have the option to choose from specific limb treatments, partial body enhancements, or full-body augmentations. The possibilities are virtually limitless, allowing for remarkable advancements in human augmentation and improved quality of life.</p>
+        </li>
+      </ul>
     </div>
+  </section>
 
-    
-    <body>
-      <header>
-        <div class="pattern">
-          <div class="container">
-            <div class="pattern-inner"></div>
-          </div>
+  <section id="case-studies" class="case-studies">
+    <div class="container">
+      <h2>Case Studies</h2>
+      <h3>Emotional Rehabilitation</h3>
+      <h4>Patient Profile:</h4>
+      <p>Sarah Thompson, Aged 34. Condition: Severe Depression and Emotional Detachment.</p>
+      <h4>Background:</h4>
+      <p>Sarah Thompson had been battling severe depression for over a decade. Traditional therapies and medications had little to no effect, leaving her emotionally detached and unable to maintain personal relationships or engage in daily activities.</p>
+      <h4>Intervention:</h4>
+      <p>The YoRHa Emotionally Intelligent AI was integrated into Sarah's treatment plan. The AI assessed her emotional state and identified areas where emotional responses were limited or overly intense.</p>
+      <h4>Outcome:</h4>
+      <p>Within six months, Sarah exhibited significant improvement. The AI's tailored interactions helped her regain emotional responsiveness, facilitating better engagement in therapy and daily life. She reported a heightened sense of well-being and emotional stability, allowing her to reconnect with her family and friends.</p>
+
+      <h3>Robotic-Assisted Surgery</h3>
+      <h4>Patient Profile:</h4>
+      <p>John Adams, Aged 52. Condition: Severe Cardiac Aliments.</p>
+      <h4>Background:</h4>
+      <p>John Adams was diagnosed with a severe cardiac condition requiring a highly complex surgical intervention. Traditional surgical methods posed significant risks due to the intricacy of the procedure and John's overall health.</p>
+      <h4>Intervention:</h4>
+      <p>Advanced robotics were employed to assist in John's cardiac surgery. The robotic system provided unparalleled precision, enabling the surgical team to perform the procedure with minimal invasiveness and reduced risk of complications.</p>
+      <h4>Outcome:</h4>
+      <p>The surgery was a success. John's recovery time was significantly shorter than expected, and he experienced fewer postoperative complications. The integration of robotics not only enhanced the precision of the surgery but also improved his overall prognosis, allowing for a faster return to normal activities.</p>
+
+      <h3>Human-Machine Integration</h3>
+      <h4>Patient Profile:</h4>
+      <p>Maria Sanchez, Aged 29. Condition: Severe Spinal Injury.</p>
+      <h4>Background:</h4>
+      <p>Maria Sanchez suffered a severe spinal injury in a car accident, leaving her paralyzed from the waist down. Traditional medical treatments offered limited hope for regaining mobility.</p>
+      <h4>Intervention:</h4>
+      <p>Maria opted for a partial body enhancement, integrating advanced robotics into her spinal structure. The procedure involved replacing damaged vertebrae with robotic counterparts, designed to mimic natural movement and function.</p>
+      <h4>Outcome:</h4>
+      <p>Post-surgery, Maria underwent extensive rehabilitation. Within a year, she regained significant mobility, allowing her to walk again with the aid of minimal support. The integration of robotic components into her spinal structure not only restored her physical capabilities but also enhanced her overall quality of life, providing her with newfound independence and confidence.</p>
+    </div>
+  </section>
+
+  <section id="research-evidence" class="research-evidence">
+    <div class="container">
+      <h2>Research | Evidence</h2>
+      <p>Supporting articles, expert opinions, and visual data representations</p>
+      <div class="supporting-articles">
+        <h3>Supporting Articles</h3>
+        <div class="article">
+          <strong>Title:</strong> "The Future of Human-Machine Integration"<br>
+          <strong>Author:</strong> Dr. Alex Johnson<br>
+          <strong>Publication:</strong> Journal of Advanced Healthcare Technology<br>
+          <strong>Summary:</strong> This article explores the advancements in human-machine integration, highlighting the benefits and potential challenges. It provides an in-depth analysis of recent technological breakthroughs and their implications for future healthcare practices.<br>
+          <a href="#">Read the article</a>
         </div>
-        
-        <div class="container">
-          <h1>
-            <span>Healthcare Innovations.</span>
-            <small>Live happier & healthier.</small>
-          </h1>
+        <div class="article">
+          <strong>Title:</strong> "Emotionally Intelligent AI: Transforming Mental Health Care"<br>
+          <strong>Author:</strong> Dr. Emily Wong<br>
+          <strong>Publication:</strong> International Journal of Mental Health Innovations<br>
+          <strong>Summary:</strong> Dr. Wong discusses how emotionally intelligent AI can revolutionize mental health care by providing personalized emotional support and enhancing therapeutic outcomes.<br>
+          <a href="#">Read the article</a>
         </div>
-      </header>
-    
-      <main>
-        <section class="introduction">
-          <div class="container">
-            <h2>Introduction</h2>
-            <p>We are YoRHa. The community that has brought many great feats to the realm of humanity.
-            </p>
-            <p>
-              We at YoRHa have successfully conbined oraganic flesh & and robotics into one, creating the perfect human being.
-              The integration of this technology has proven pivotal to human survival, the robotics pick up where humans lack. 
-              This results in increased pyhsical and psycological prowess, increased aliment and disease resistance and more.
-              We are YoRHa, and we strive to bring glory to mankind.
-            </p>
-          </div>
-        </section>
-    
-        <section class="innovations">
-          <div class="container">
-            <h2>Innovations</h2>
-            <ul>
-              <li>Emotionally Intelligent AI</li>
-              <p>
-                This is not just any AI; it is an emotionally capable AI.
-               Unlike conventional systems, our AI enhances mental and emotional experiences rather than dulling them.
-               It actively increases emotional capabilities, fostering a more enriched and responsive interaction.
-              </p>
-              <p>
-                What does that mean?
-              </p>
-              <p>
-                If a patient is emotionally unavailable,
-                 the YoRHa AI can enhance the accessibility of limited emotional resources. The AI can 
-                 also put a limit on certain emotions the patient finds troublesome.
-              </p>
-              <li>Advanced Robotics in Healthcare</li>
-              <p>
-                As diseases continue to evolve alongside human populations, integrating advanced robotics 
-                into medical practice is increasingly essential. By incorporating robotic technologies,
-                we can significantly enhance the efficiency of various medical procedures,
-                including surgical operations, diagnostic testing, and patient care.
-                This integration not only improves the precision and effectiveness of medical
-                interventions but also supports the rapid advancement of healthcare innovation,
-                ensuring better outcomes for patients and optimizing the overall healthcare system.
-              </p>
-              <li>Human-Machine Integration</li>
-              <p>
-                Every human life is invaluable. With this belief at the forefront,
-                the experts at YoRHa Headquarters have developed sophisticated,
-                harmonious vessels that seamlessly integrate human tissue with advanced robotics.
-                These procedures, while straightforward, require significant time to complete.
-                Patients have the option to choose from specific limb treatments, partial body enhancements,
-                or full-body augmentations. The possibilities are virtually limitless,
-                allowing for remarkable advancements in human augmentation and improved quality of life
-              </p>
-            </ul>
-          </div>
-        </section>
-    
-        <section class="case-studies">
-          <div class="container">
-            <h2>Case Studies.</h2>
-            <h3>Emotional Rehabilitation.</h3>
-            <h4>Patient Profile:</h4>
-            <p>Sarah Thompson, Aged 34.</p>
-            <p>Condition: Severe Depression and Emotional Detachment.</p>
+        <div class="article">
+          <strong>Title:</strong> "Robotic Surgery: Precision and Efficiency in Modern Medicine"<br>
+          <strong>Author:</strong> Dr. Michael Carter<br>
+          <strong>Publication:</strong> Robotics in Healthcare Review<br>
+          <strong>Summary:</strong> This article examines the role of advanced robotics in surgical procedures, emphasizing improved precision, reduced recovery times, and enhanced patient outcomes.<br>
+          <a href="#">Read the article</a>
+        </div>
+      </div>
+      <div class="expert-opinions">
+        <h3>Expert Opinions</h3>
+        <div class="opinion">
+          <strong>Dr. Samantha Lee, Neurosurgeon:</strong><br>
+          "The integration of robotics in neurosurgery has been a game-changer. The precision and control offered by these technologies are unparalleled, significantly reducing the risk of complications and improving patient recovery."
+        </div>
+        <div class="opinion">
+          <strong>Dr. Robert Martinez, AI Specialist:</strong><br>
+          "Emotionally intelligent AI represents a major advancement in mental health care. By understanding and responding to human emotions, these systems offer a level of personalized support that was previously unattainable."
+        </div>
+      </div>
+      <div class="visual-data">
+        <h3>Visual Data Representations</h3>
+        <!-- Add visual data representations like charts or graphs -->
+        <img src="images/visual-data.jpg" alt="Visual Data Representation">
+      </div>
+    </div>
+  </section>
 
-            <h4>Background.</h4>
-            <p>Sarah Thompson had been battling severe depression for over a decade.
-             Traditional therapies and medications had little to no effect, leaving her emotionally
-             detached and unable to maintain personal relationships or engage in daily activities.
-            </p>
+  <section id="interactive-features" class="interactive-features">
+    <div class="container">
+      <h2>Interactive Features</h2>
+      <div class="interactive-content">
+        <h3>Interactive AI Simulation</h3>
+        <p>Experience the capabilities of our Emotionally Intelligent AI through this interactive simulation. Understand how the AI responds to various emotional inputs and assists in different scenarios.</p>
+        <button type="button">Start Simulation</button>
+      </div>
+      <div class="interactive-content">
+        <h3>Robotic Surgery Demo</h3>
+        <p>Explore a virtual demo of our robotic surgery system. See how the technology operates and its impact on precision and patient outcomes.</p>
+        <button type="button">View Demo</button>
+      </div>
+      <div class="interactive-content">
+        <h3>Human-Machine Integration Explorer</h3>
+        <p>Discover the possibilities of human-machine integration with our interactive explorer. Customize your enhancements and see how they could improve various aspects of life.</p>
+        <button type="button">Explore Enhancements</button>
+      </div>
+    </div>
+  </section>
 
-            <h4>Intervention.</h4>
-            <p>The YoRHa Emotionally Intelligent AI was integrated into Sarah's treatment plan.
-             The AI assessed her emotional state and identified areas where emotional responses
-             were limited or overly intense.
-            </p>
+  <section id="contact-collab" class="contact-collab">
+    <div class="container">
+      <h2>Contact | Collab</h2>
+      <p>If you are interested in collaborating with us or have any inquiries, please reach out using the contact form below or connect with us on our social media channels.</p>
+      <form action="#" method="post">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" rows="4" required></textarea>
+        <button type="submit">Send Message</button>
+      </form>
+    </div>
+  </section>
 
-            <h4>Outcome.</h4>
-            <p>Within six months, Sarah exhibited significant improvement. 
-              The AI's tailored interactions helped her regain emotional responsiveness, 
-              facilitating better engagement in therapy and daily life. She reported a heightened
-              sense of well-being and emotional stability, allowing her to reconnect with her
-              family and friends.
-            </p>
-
-
-            <br>
-            <h3>Robotic-Assisted Surgery.</h3>
-            <h4>Patient Profile:</h4>
-            <p>John Adams, Aged 52.</p>
-            <p>Condition: Severe Cardiac Aliments.</p>
-
-            <h4>Background.</h4>
-            <p>John Adams was diagnosed with a severe cardiac condition requiring a highly
-              complex surgical intervention. Traditional surgical methods posed significant 
-              risks due to the intricacy of the procedure and John's overall health.
-            </p>
-
-            <h4>Intervention.</h4>
-            <p>Advanced robotics were employed to assist in John's cardiac surgery.
-             The robotic system provided unparalleled precision, enabling the surgical team 
-             to perform the procedure with minimal invasiveness and reduced risk of complications.
-            </p>
-
-            <h4>Outcome.</h4>
-            <p>The surgery was a success. John's recovery time was significantly shorter than 
-              expected, and he experienced fewer postoperative complications. The integration 
-              of robotics not only enhanced the precision of the surgery but also improved his 
-              overall prognosis, allowing for a faster return to normal activities.
-            </p>
-
-
-            <br>
-            <h3>Human-Machine Integration.</h3>
-            <h4>Patient Profile:</h4>
-            <p>Maria Sanchez, Aged 29.</p>
-            <p>Condition: Severe Spinal Injury.</p>
-
-            <h4>Background.</h4>
-            <p>Maria Sanchez suffered a severe spinal injury in a car accident, 
-              leaving her paralyzed from the waist down. Traditional medical treatments 
-              offered limited hope for regaining mobility.
-            </p>
-
-            <h4>Intervention.</h4>
-            <p>Maria opted for a partial body enhancement, integrating advanced robotics 
-              into her spinal structure. The procedure involved replacing damaged vertebrae 
-              with robotic counterparts, designed to mimic natural movement and function.
-            </p>
-
-            <h4>Outcome.</h4>
-            <p>Post-surgery, Maria underwent extensive rehabilitation.
-               Within a year, she regained significant mobility, allowing her to walk 
-               again with the aid of minimal support. The integration of robotic components 
-               into her spinal structure not only restored her physical capabilities but also 
-               enhanced her overall quality of life, providing her with newfound independence and confidence.
-            </p>
-            <br><br>
-
-          </div>
-        </section>
-    
-        <section class="research-evidence">
-          <div class="container">
-            <h2>Research | Evidence</h2>
-            <p>Supporting articles, expert opinions, and visual data representations</p>
-
-
-            <div class="supporting-articles">
-              <h3>Supporting Articles</h3>
-              <div class="article">
-                <strong>Title:</strong> "The Future of Human-Machine Integration"<br>
-                <strong>Author:</strong> Dr. Alex Johnson<br>
-                <strong>Publication:</strong> Journal of Advanced Healthcare Technology<br>
-                <strong>Summary:</strong> This article explores the advancements in human-machine integration, highlighting the benefits and potential challenges. It provides an in-depth analysis of recent technological breakthroughs and their implications for future healthcare practices.<br>
-                <a href="#">Read the article</a>
-              </div>
-              <div class="article">
-                <strong>Title:</strong> "Emotionally Intelligent AI: Transforming Mental Health Care"<br>
-                <strong>Author:</strong> Dr. Emily Wong<br>
-                <strong>Publication:</strong> International Journal of Mental Health Innovations<br>
-                <strong>Summary:</strong> Dr. Wong discusses how emotionally intelligent AI can revolutionize mental health care by providing personalized emotional support and enhancing therapeutic outcomes.<br>
-                <a href="#">Read the article</a>
-              </div>
-              <div class="article">
-                <strong>Title:</strong> "Robotic Surgery: Precision and Efficiency in Modern Medicine"<br>
-                <strong>Author:</strong> Dr. Michael Carter<br>
-                <strong>Publication:</strong> Robotics in Healthcare Review<br>
-                <strong>Summary:</strong> This article examines the role of advanced robotics in surgical procedures, emphasizing improved precision, reduced recovery times, and enhanced patient outcomes.<br>
-                <a href="#">Read the article</a>
-              </div>
-            </div>
-        
-            <div class="expert-opinions">
-              <h3>Expert Opinions</h3>
-              <div class="opinion">
-                <strong>Dr. Samantha Lee, Neurosurgeon:</strong><br>
-                "The integration of robotics in neurosurgery has been a game-changer. The precision and control offered by these technologies are unparalleled, significantly reducing the risk of complications and improving patient outcomes."
-              </div>
-              <div class="opinion">
-                <strong>Dr. Andrew Miller, AI Specialist:</strong><br>
-                "Emotionally intelligent AI represents the next frontier in personalized mental health care. Its ability to adapt to individual emotional needs is transforming therapeutic practices and improving patient engagement."
-              </div>
-            </div>
-
-
-          </div>
-        </section>
-    
-        <section class="interactive-features">
-          <div class="container">
-            <h2>Interactive Features</h2>
-            
-            <div class="news-updates">
-              <h3>News | Updates Section</h3>
-              <p>Stay informed with the latest innovations in healthcare. Check back regularly for updates on our newest advancements and technologies.</p>
-              <ul>
-                <li><strong>Title:</strong> "Breakthrough in Human-Machine Integration" - <a href="#">Read more</a></li>
-                <li><strong>Title:</strong> "New AI Enhancements in Emotional Therapy" - <a href="#">Read more</a></li>
-                <li><strong>Title:</strong> "Advanced Robotics in Surgery: A New Era" - <a href="#">Read more</a></li>
-              </ul>
-            </div>
-        
-            <div class="expert-interviews">
-              <h3>Interviews with Experts</h3>
-              <div class="interview">
-                <h4>Dr. Alex Johnson</h4>
-                <p><strong>Field:</strong> Human-Machine Integration Specialist</p>
-                <p><strong>Interview:</strong> Dr. Johnson discusses the future of human-machine integration and its potential impact on healthcare.</p>
-                <a href="#">Watch the interview</a>
-              </div>
-              <div class="interview">
-                <h4>Dr. Emily Wong</h4>
-                <p><strong>Field:</strong> AI in Mental Health</p>
-                <p><strong>Interview:</strong> Dr. Wong shares insights on the advancements in emotionally intelligent AI and its applications in mental health therapy.</p>
-                <a href="#">Watch the interview</a>
-              </div>
-              <div class="interview">
-                <h4>Dr. Michael Carter</h4>
-                <p><strong>Field:</strong> Robotics in Surgery</p>
-                <p><strong>Interview:</strong> Dr. Carter explains the role of robotics in modern surgical procedures and the benefits it brings to patient outcomes.</p>
-                <a href="#">Watch the interview</a>
-              </div>
-            </div>
-          </div>
-        </section>
-        
-    
-        <section class="contact-collab">
-          <div class="container">
-            <h2>Contact | Collab</h2>
-            <p>Forms and collab invites</p>
-            <form action="#" method="post">
-              <label for="name">Name:</label>
-              <input type="text" id="name" name="name">
-              
-              <label for="email">Email:</label>
-              <input type="email" id="email" name="email">
-              
-              <label for="message">Message:</label>
-              <textarea id="message" name="message"></textarea>
-              
-              <button type="submit">Submit</button>
-            </form>
-          </div>
-        </section>
-      </main>
-      </body>
-  </div>
 </main>
 
-<div class="pattern">
+<footer>
   <div class="container">
-    <div class="pattern-inner"></div>
-  </div>
-</div>
+    <p>&copy; 2024 YoRHa HyperCAre. All rights reserved.</p>
+    <ul class="social-media">
+      <li><a href="#">Facebook</a></li>
+      <li><a href="#">Twitter</a
