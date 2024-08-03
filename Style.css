@@ -32,7 +32,8 @@ body {
 }
 
 .container {
-  padding: 0 4rem;
+  padding: 0 2rem;
+
 }
 
 header {
@@ -86,6 +87,8 @@ nav ul {
   list-style: none; /* Remove default list styling */
   margin: 0;
   padding: 0;
+  text-transform: uppercase;
+  font-size: 14px;
 
 }
 
@@ -277,12 +280,55 @@ img {
   box-shadow: var(--boxShadow);
 }
 
-<<<<<<< Updated upstream
-=======
+.introduction {
+  padding: 20px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
 
->>>>>>> Stashed changes
+}
 
-/*--------------------------------------------------------*/
+.text-section {
+  flex: 1; /* Takes up one portion of the space */
+  padding-right: 20px; /* Optional padding for spacing */
+}
+
+.intro_image {
+  position: relative;
+  top: 3rem;
+  height: 32vw;
+  width:32vw;
+  border-radius: 50%;
+  box-shadow: 0 0 25px var(--main-color);
+  cursor: pointer;
+  transition: 0.4s ease-in-out;
+}
+
+.classified-section {
+  flex: 5; /* Takes up two portions of the space */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.classified-info {
+  margin-bottom: 20px; /* Space between classified info and button */
+}
+
+.intro_image img:hover {
+  box-shadow: 0 0 25px var(--main-color),
+              0 0 50px var(--main-color),
+              0 0 100px var(--main-color);
+}
+
+.introduction p {
+  
+  font-weight: 400;
+  line-height: 1.8;
+  max-width: 1000px;
+}
+
 /* Contact page specific styles */
 .contact {
   display: flex;
