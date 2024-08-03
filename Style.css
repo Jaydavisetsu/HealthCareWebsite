@@ -37,7 +37,9 @@ body {
 
 header {
   padding: 1rem 0;
+  position: relative;
 }
+
 
 .hero {
   position: relative;
@@ -275,6 +277,10 @@ img {
   box-shadow: var(--boxShadow);
 }
 
+<<<<<<< Updated upstream
+=======
+
+>>>>>>> Stashed changes
 
 /*--------------------------------------------------------*/
 /* Contact page specific styles */
