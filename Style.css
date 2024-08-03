@@ -35,6 +35,7 @@ body {
   padding: 0 2rem;
   max-width: 1200px;
   margin: 0 auto;
+
 }
 
 header {
@@ -280,11 +281,17 @@ img {
 }
 
 .introduction {
-  padding: 1rem;
-  border: 1px solid var(--accentColor);
-  margin-top: 2rem;
+  padding: 20px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+
 }
 
+.text-section {
+  flex: 1; /* Takes up one portion of the space */
+  padding-right: 20px; /* Optional padding for spacing */
+}
 
 .intro_image {
   position: relative;
@@ -297,16 +304,16 @@ img {
   transition: 0.4s ease-in-out;
 }
 
-.classified-info {
-  border: 1px solid var(--accentColor);
-  padding: 20px;
-  margin-top: 20px;
-  background-color: rgba(255, 255, 255, 0.05);
+.classified-section {
+  flex: 5; /* Takes up two portions of the space */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
 }
 
-.classified-info h3 {
-  margin-top: 0;
-  color: var(--accentColor);
+.classified-info {
+  margin-bottom: 20px; /* Space between classified info and button */
 }
 
 .intro_image img:hover {
@@ -316,8 +323,8 @@ img {
 }
 
 .introduction p {
-  font-size: 1.5rem;
-  font-weight: 500;
+  
+  font-weight: 400;
   line-height: 1.8;
   max-width: 1000px;
 }
